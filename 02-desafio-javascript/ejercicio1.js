@@ -34,5 +34,4 @@ function largoDelNombre(nombre = "") {
     }
 
 }
-const valida_nombre = largoDelNombre("Arturo Ciro");
-console.log(valida_nombre);
+console.log(largoDelNombre("Arturo Ciro"))

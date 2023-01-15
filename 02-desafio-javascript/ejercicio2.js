@@ -9,5 +9,4 @@ function contarTipoNumber(arreglo = []) {
 
 }
 
-const valida_datos = contarTipoNumber(["Casa","45",true,1,2,"33","casa2"]);
-console.log(valida_datos);
+console.log(contarTipoNumber(["Casa","45",true,1,2,"33","casa2"]));
