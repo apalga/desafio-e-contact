@@ -8,8 +8,6 @@
 
 function cargarArreglo(numero) {
 
-//let random = Math.floor(Math.random()*100);
-
 if (numero > 0)
 
 {
