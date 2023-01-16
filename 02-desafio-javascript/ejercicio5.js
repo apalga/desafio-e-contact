@@ -34,3 +34,4 @@ const objetoFijo = {
   },
 };
 console.log(obtenerCantidadDeSedes(objetoFijo));
+//****valor esperado: la empresa tiene 5 sedes

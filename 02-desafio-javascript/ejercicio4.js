@@ -33,7 +33,7 @@ function obtenerCantidadDePares(numero1, numero2){
 
 }
 console.log(obtenerCantidadDePares(0,4));
-
+//****valor esperado: La cantidad de números pares obtenido fue de: 3
 
 
 

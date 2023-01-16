@@ -12,3 +12,4 @@ function datosPersona(persona = {}) {
 
 const datos = datosPersona({nombre: "Arturo", edad: 29, altura: 1.71});
 console.log(datos);
+//****valor esperado: Esta persona se llama Arturo, tiene 29, años y su altura es de 1.71

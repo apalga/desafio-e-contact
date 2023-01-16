@@ -16,8 +16,9 @@ function divisiblesPorCinco(numeros = []) {
         } 
     
     }
-    return `La cantidad de numeros, en el arreglo, que son divisbles por 5 es = ${conteo}`;
-   
+    return `La cantidad de numeros divisbles por 5 es : ${conteo}`;
+
  }
 console.log(divisiblesPorCinco([5,10,15,20,1]));
+//****valor esperado: La cantidad de numeros divisbles por 5 es : 4
 

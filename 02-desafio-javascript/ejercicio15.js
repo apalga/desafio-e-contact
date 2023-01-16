@@ -19,3 +19,6 @@ function validarNombre(nombres = [], nombre) {
 
 }
 console.log(validarNombre(['Arturo','David','Claudia'],'David'))
+//****valor esperado: true
+console.log(validarNombre(['Arturo','David','Claudia'],'David1'))
+//****valor esperado: false

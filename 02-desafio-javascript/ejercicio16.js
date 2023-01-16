@@ -7,3 +7,4 @@ function devolverPosicion(numeros = [], numero) {
     return i;
 }
 console.log(devolverPosicion([1,2,3,40],3))
+//****valor esperado: 2

@@ -55,3 +55,6 @@ const objetoFijo = {
   },
 };
 console.log(verificarCantidadEmpleados(objetoFijo,100));
+//****valor esperado: Existen 5 sedes con menos de 100 empleados
+console.log(verificarCantidadEmpleados(objetoFijo,35));
+//****valor esperado: Existen 3 sedes con menos de 35 empleados

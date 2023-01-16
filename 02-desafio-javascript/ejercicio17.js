@@ -43,3 +43,6 @@ const objetoFijo = {
 
 
 console.log(verificarSector(objetoFijo,'Informática'))
+//****valor esperado:true
+console.log(verificarSector(objetoFijo,'Informática1'))
+//****valor esperado:false

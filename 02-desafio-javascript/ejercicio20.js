@@ -16,3 +16,4 @@ function quitarParteDecimal(arregloNumerosReales = []) {
 }
 const numerosReales = [34.4552, 25.1543, 17.9438, 90.5, 67.82, 5, 9.99, 62.037];
 console.log(quitarParteDecimal(numerosReales));
+//****valor esperado:(8) [34, 25, 17, 90, 67, 5, 9, 62]

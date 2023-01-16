@@ -18,3 +18,4 @@ function calcularCuadrados(arreglo = []) {
 }
 const arregloFijo = [1, 3, 4, 7, 12, 18, 20, 26];
 console.log(calcularCuadrados(arregloFijo))
+//****valor esperado: (8) [1, 9, 16, 49, 144, 324, 400, 676]

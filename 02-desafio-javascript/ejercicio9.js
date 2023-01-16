@@ -31,4 +31,7 @@ else{
 
 }
 console.log(cargarArreglo(10));
+//****valor esperado: (20) [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+console.log(cargarArreglo(5));
+//****valor esperado: (10) [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
 

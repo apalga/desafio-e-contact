@@ -48,3 +48,4 @@ const objetoFijo = {
 };
 
 console.log(verificarCantidadEmpleados(objetoFijo));
+//****valor esperado: false

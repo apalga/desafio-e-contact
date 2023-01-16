@@ -17,7 +17,6 @@ function largoDelNombre(nombre = "") {
     else
 
     {
-
         let largo = nombre.length;
         if (largo >= 0 && largo < 5)
             {
@@ -41,3 +40,6 @@ function largoDelNombre(nombre = "") {
 
 }
 console.log(largoDelNombre("Arturo Palga"))
+//****valor esperado: Es un nombre LARGO. Su largo es: 12
+console.log(largoDelNombre("Ciro"))
+//****valor esperado: Es un nombre CORTO. Su largo es: 4

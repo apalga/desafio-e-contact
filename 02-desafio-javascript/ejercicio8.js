@@ -31,3 +31,4 @@ function calculoMatematico(operacion, numero1, numero2) {
     return `${numero1} ${operacion} ${numero2} = ${resultado}`;
 }
 console.log(calculoMatematico("-",1,2));
+//****valor esperado: 1 - 2 = -1

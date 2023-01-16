@@ -12,3 +12,6 @@ function verificarClave(objeto = {},clave) {
 
 }
 console.log(verificarClave({nombre: 'Arturo', edad: 29, profesion: 'Ingeniero Redes'},'profesion'))
+//****valor esperado:true
+console.log(verificarClave({nombre: 'Arturo', edad: 29, profesion: 'Ingeniero Redes'},'altura'))
+//****valor esperado:false

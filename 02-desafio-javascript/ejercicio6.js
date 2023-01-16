@@ -43,3 +43,4 @@ const objetoFijo = {
 };
 
 console.log(obtenerTelefonoPeru(objetoFijo));
+//****valor esperado: Telefono Peru: 5116358614

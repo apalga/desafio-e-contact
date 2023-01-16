@@ -32,3 +32,6 @@ if (numeros.length < 6)
 
 }
 console.log(validarArreglo([100,200,3,4,5,6]))
+//****valor esperado: true
+console.log(validarArreglo([1,2,3,4,5,6]))
+//****valor esperado: false

@@ -56,3 +56,4 @@ const objetoFijo = {
   },
 };
 console.log(obtenerPaisesConTelefono(objetoFijo));
+//****valor esperado: La cantidad de Paises con telefono asignado: 4
