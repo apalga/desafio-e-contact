@@ -3,8 +3,18 @@
  */
 function devolverPosicion(numeros = [], numero) {
 
-    let i = numeros.indexOf(numero);
-    return i;
+    if (numeros.includes(numero)){
+
+        let i = numeros.indexOf(numero);
+        return i;
+    }
+    else
+    {
+        return `el valor no se encuentra en el arreglo`
+    }
+    
 }
 console.log(devolverPosicion([1,2,3,40],3))
 //****valor esperado: 2
+console.log(devolverPosicion([1,2,3,40],50))
+//****valor esperado: el valor no se encuentra en el arreglo
