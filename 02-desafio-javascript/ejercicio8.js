@@ -26,7 +26,7 @@ function calculoMatematico(operacion, numero1, numero2) {
           resultado = numero1 / numero2;
         break;
       default:
-          resultado = "Ingresaste un operador NO valido"
+          resultado = "La operación matemática que intenta realizar es inexistente"
         break;
     }
 
@@ -35,12 +35,12 @@ function calculoMatematico(operacion, numero1, numero2) {
   }
   else
   {
-    return `La operación matemática que intenta realizar es inexistente`
+    return `los valores ingresados deben ser de tipo number`
   }
 
 
 }
 console.log(calculoMatematico("-",1,2));
 //****valor esperado: 1 - 2 = -1
-console.log(calculoMatematico("-","acb",2));
+console.log(calculoMatematico("/","acb",2));
 //****valor esperado: La operación matemática que intenta realizar es inexistente
