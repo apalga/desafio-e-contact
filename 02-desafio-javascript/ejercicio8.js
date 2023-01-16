@@ -26,7 +26,7 @@ function calculoMatematico(operacion, numero1, numero2) {
           resultado = numero1 / numero2;
         break;
       default:
-          resultado = "Ingresaste un operador NO validp"
+          resultado = "Ingresaste un operador NO valido"
         break;
     }
 
