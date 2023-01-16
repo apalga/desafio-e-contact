@@ -1,11 +1,17 @@
+/**
+ *? EJERCICIO 1: Crear una función la cual reciba un parámetro de tipo string con el nombre de la persona y retornar un nuevo string
+ *? dependiendo del largo del nombre:
+ *? Si el largo se encuentra entre 0 y 5 retornar "Es un nombre corto. Su largo es de: "
+ *? Si el largo es 11 o mayor retornar "Es un nombre largo. Su largo es de: "
+ *? IMPORTANTE: validar que el parámetro recibido sea un string al inicio de la función, de lo contrario, retornar "El parámetro recibido es invalido"
+ *? RECORDATORIO: al leer la sentencia "return" termina la ejecución de la función.
+ */
 function largoDelNombre(nombre = "") {
 
-    let valoresNoAceptados = /^[0-9]+$/;
-
-    if (nombre.match(valoresNoAceptados))
+    if (typeof nombre != "string")
 
     {
-        return `El parámetro recibido es invalido`;
+        return `El parámetro recibido es invalido.`;
     }
 
     else
@@ -34,4 +40,4 @@ function largoDelNombre(nombre = "") {
     }
 
 }
-console.log(largoDelNombre("Arturo Ciro"))
+console.log(largoDelNombre("Arturo Palga"))
